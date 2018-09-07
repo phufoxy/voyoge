@@ -33,6 +33,13 @@
     text-transform: capitalize;
 }
 
+.title-footer {
+    font-family: 'roboto';
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
 body {
     font-family: 'champagne';
     font-size: 16px;
@@ -96,7 +103,7 @@ header nav ul li a:hover {
 
 #slider .slider-items img {
     width: 100%;
-    height: 600px;
+    height: 768px;
 }
 
 #slider .slider-items .title-slider {
@@ -122,21 +129,23 @@ header nav ul li a:hover {
 }
 
 #tabs .tab {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     position: absolute;
-    top: -72%;
-    background: transparent;
-    padding: 10px;
+    top: -69%;
     background: #fff;
     border-radius: 2px;
     z-index: 0;
+    /* transform: translate(-50%, -50%); */
 }
 
 #tabs .tab button {
-    background: rgba(255, 95, 95, 1);
-    color: #fff;
-    font-family: 'roboto';
-    text-transform: capitalize;
+    width: 25%;
+    height: 55px;
     background: transparent;
+    text-transform: capitalize;
+    font-family: 'roboto';
     color: rgba(255, 95, 95, 1);
     border-radius: 2px;
 }
@@ -144,9 +153,7 @@ header nav ul li a:hover {
 #tabs .tab button.active {
     background: rgba(255, 95, 95, 1);
     color: #fff;
-    transform: scale(1.3, 1.9);
-    -moz-transform: scale(1.3, 1.9);
-    -webkit-transform: scale(1.3, 1.9);
+    transform: scale(1, 1.3);
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -282,14 +289,6 @@ header nav ul li a:hover {
     -moz-transition: all 0.5s ease-in-out;
 }
 
-#places .circle .circle-item:hover img {
-    box-shadow: 1px 1px 8px 1px rgba(255, 95, 95, 1);
-    opacity: 0.2;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-}
-
 #places .circle .circle-item .description {
     height: auto;
     margin-top: 10px;
@@ -297,15 +296,6 @@ header nav ul li a:hover {
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
-}
-
-#places .circle .circle-item:hover .description {
-    transform: translate(0, -150px);
-    -moz-transform: translate(0, -150px);
-    -webkit-transform: translate(0, -150px);
-    transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    -webkit-transition: all 0.8s ease-in-out;
 }
 
 #places .circle .circle-item .description h1 {
@@ -363,17 +353,8 @@ header nav ul li a:hover {
     -webkit-transition: all 0.5s ease-in-out;
 }
 
-#our-services .boxes .box:hover i {
-    transform: translate(0, 150px);
-    -moz-transform: translate(0, 150px);
-    -webkit-transform: translate(0, 150px);
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-}
-
 #our-services .boxes .box h1 {
-    font-family: 'roboto';
+    font-family: 'comfortaa';
     text-transform: capitalize;
     font-size: 22px;
     width: 100%;
@@ -385,9 +366,6 @@ header nav ul li a:hover {
 }
 
 #our-services .boxes .box:hover h1 {
-    transform: translate(0, -100px);
-    -moz-transform: translate(0, -100px);
-    -webkit-transform: translate(0, -100px);
     background: #b6b6b6;
     border-radius: 4px;
     color: rgba(255, 95, 95, 1);
@@ -410,9 +388,6 @@ header nav ul li a:hover {
 }
 
 #our-services .boxes .box:hover p {
-    transform: translate(0, -100px);
-    -moz-transform: translate(0, -100px);
-    -webkit-transform: translate(0, -100px);
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -447,28 +422,14 @@ header nav ul li a:hover {
     bottom: 0%;
     left: 0%;
     line-height: 5px;
-    height: 150px;
-    width: 100%;
     padding-left: 30px;
     padding-top: 10px;
-    background-size: 200% 200%;
-    background-image: linear-gradient(to top, #fff 50%, transparent 50%);
-    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
-}
-
-#popular .boxes .box:hover .description {
-    color: white;
-    border-color: #fff;
-    background-image: linear-gradient(to top, #fff 51%, transparent 50%);
-    background-position: 0 100%;
-    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
 }
 
 #popular .boxes .box .description h3 {
     color: #fff;
     font-family: 'comfortaa';
     font-size: 14px;
-    font-weight: bold;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -483,7 +444,7 @@ header nav ul li a:hover {
 
 #popular .boxes .box .description h1 {
     color: #fff;
-    font-family: 'roboto';
+    font-family: 'comfortaa';
     font-size: 20px;
     text-transform: capitalize;
     transition: all 0.5s ease-in-out;
@@ -500,7 +461,8 @@ header nav ul li a:hover {
 
 #popular .boxes .box .description .text-norm {
     color: #b6b6b6;
-    font-family: 'roboto';
+    font-family: 'comfortaa';
+    line-height: 16px;
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -520,7 +482,7 @@ header nav ul li a:hover {
 
 #popular .boxes .box .description nav ul li p {
     color: #fff;
-    font-family: 'roboto';
+    font-family: 'comfortaa';
     font-size: 14px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -532,4 +494,341 @@ header nav ul li a:hover {
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* our-satisfied */
+
+#our-satisfied {
+    height: auto;
+}
+
+#our-satisfied .boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#our-satisfied .boxes .box {
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#our-satisfied .boxes .box img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+#our-satisfied .boxes .box ul li {
+    display: inline-table;
+    margin-top: 10px;
+}
+
+#our-satisfied .boxes .box ul li i {
+    color: rgba(255, 95, 95, 1);
+}
+
+#our-satisfied .boxes .box p {
+    font-family: 'roboto';
+    font-size: 14px;
+}
+
+#our-satisfied .boxes .box h1 {
+    font-family: 'roboto';
+    font-size: 18px;
+    color: rgba(255, 95, 95, 1);
+    text-transform: capitalize;
+}
+
+#our-satisfied .boxes .box h3 {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #b6b6b6;
+    text-transform: capitalize;
+}
+
+/* recommended */
+
+#recommended {
+    height: 600px;
+}
+
+#recommended form {
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#recommended form p {
+    font-family: 'roboto';
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#recommended form .form-input {
+    position: relative;
+}
+
+#recommended form .form-input input {
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#recommended form .form-input input::placeholder {
+    text-transform: capitalize;
+}
+
+#recommended form .form-input i {
+    position: absolute;
+    top: 26%;
+    right: 10%;
+    font-size: 26px;
+    color: #b6b6b6;
+}
+
+#recommended .most {
+    width: 70%;
+    float: right;
+}
+
+#recommended .most .boxes {
+    display: flex;
+    margin-top: 30px;
+}
+
+#recommended .most .boxes .box {
+    position: relative;
+    width: 33.3%;
+    height: 360px;
+}
+
+#recommended .most .boxes .box img {
+    width: 100%;
+    height: 100%;
+}
+
+#recommended .most .boxes .box .description {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    line-height: 5px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#recommended .most .boxes .box .description h3 {
+    color: #fff;
+    font-family: 'comfortaa';
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#recommended .most .boxes .box:hover .description h3 {
+    color: rgba(255, 95, 95, 1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#recommended .most .boxes .box .description h1 {
+    color: #fff;
+    font-family: 'comfortaa';
+    font-size: 22px;
+    width: 80%;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#recommended .most .boxes .box:hover .description h1 {
+    color: rgba(255, 95, 95, 1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#recommended .most .boxes .box .description p {
+    color: #b6b6b6;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'comfortaa';
+    line-height: 16px;
+}
+
+#recommended .most .boxes .box .description nav ul li {
+    display: inline-table;
+}
+
+#recommended .most .boxes .box .description nav ul li i {
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#recommended .most .boxes .box:hover .description nav ul li i {
+    color: rgba(255, 95, 95, 1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#recommended .most .boxes .box .description nav ul li p {
+    color: #fff;
+    font-family: 'comfortaa';
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#recommended .most .boxes .box:hover .description nav ul li p {
+    color: rgba(255, 95, 95, 1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* our-blog */
+
+#our-blog {
+    height: auto;
+}
+
+#our-blog .boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#our-blog .boxes .box {
+    width: 23.5%;
+    border-radius: 4px;
+}
+
+#our-blog .boxes .box .description {
+    padding: 10px;
+}
+
+#our-blog .boxes .box .description h3 {
+    color: #b6b6b6;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family: 'comfortaa';
+}
+
+#our-blog .boxes .box .description p {
+    font-size: 18px;
+    font-family: 'comfortaa';
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+#our-blog .boxes .box .description a {
+    font-size: 16px;
+    font-family: 'roboto';
+    text-transform: capitalize;
+    font-weight: normal;
+    color: rgba(255, 95, 95, 1);
+    text-decoration: none;
+}
+
+#our-blog .boxes .box:hover .description a {
+    color: #b6b6b6;
+}
+
+#our-blog .boxes .box .description i {
+    float: right;
+    color: #b6b6b6;
+}
+
+/* footer */
+
+footer {
+    height: 100%;
+    background: #4c4c4c;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer .footer-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .footer-header .box {
+    width: 15%;
+}
+
+footer .footer-header .box:nth-child(1) {
+    width: 30%;
+}
+
+footer .footer-header .box:nth-child(5) {
+    width: 20%;
+}
+
+footer .footer-header .box p {
+    font-family: 'roboto';
+    color: #b6b6b6;
+}
+
+footer .footer-header .box a {
+    font-family: 'roboto';
+    color: #b6b6b6;
+    text-transform: capitalize;
+}
+
+footer .footer-header .box li {
+    display: inline-table;
+    width: 100%;
+    line-height: 36px;
+}
+
+footer .footer-header .box:nth-child(5) li {
+    display: inline;
+}
+
+footer .footer-header .box li i {
+    background: #828282;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 100%;
+    color: #fff;
+    margin-left: 5px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+footer .footer-header .box li:hover i {
+    color: red;
+    transform: rotate3d(0, 1, 1.5, 90deg);
+    -moz-transform: rotate3d(0, 1, 1.5, 90deg);
+    -webkit-transform: rotate3d(0, 1, 1.5, 90deg);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+footer .text-content p {
+    color: #b6b6b6;
+    text-transform: capitalize;
+    font-family: 'roboto';
+    margin-top: 50px;
 }
