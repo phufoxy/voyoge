@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- style reset -->
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="../css/animation.css">
+    <!-- icon style -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <script src="../js/jquery/jquery-3.3.1.min.js"></script>
+    <!-- translate -->
+    <script src="../js/jquery/translate.js"></script>
+
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <!--script type="text/javascript" src="engine0/jquery.js"></script-->
+    <!-- End WOWSlider.com HEAD section -->
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <!--script type="text/javascript" src="engine0/jquery.js"></script-->
+    <!-- End WOWSlider.com HEAD section -->
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <!--script type="text/javascript" src="engine1/jquery.js"></script-->
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body>
+    <header id="menu-header" class="menu">
+        <a href="javascript:void(0);" class="icon" onclick="myHeader()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <h1>voyage</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="lang" key="home">home</a></li>
+                <li><a href="#" class="lang" key="tours">tours</a></li>
+                <li><a href="#" class="lang" key="hotels">hotels</a></li>
+                <li><a href="#" class="lang" key="services">services</a></li>
+                <li><a href="#" class="lang" key="blog">blog</a></li>
+                <li><a href="#" class="lang" key="about">about</a></li>
+                <li><a href="#" class="lang" key="contact">contact</a></li>
+                <li> <img class="translate" id="en" src="http://icons.iconarchive.com/icons/icons-land/vista-flags/32/United-States-Flag-1-icon.png"></li>
+                <li> <img class="translate" id="vn" src="../images/vietnam-flag-3d-icon-32.png"></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="login padding-top-bottom">
+        <div class="slider-login">
+        </div>
+        <form action="">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="text" placeholder="Enter Username" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" placeholder="Enter Password" class="form-control">
+            </div>
+            <input type="submit" value="Login" class="btn">
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-header">
+                <div class="box">
+                    <h1 class="title-footer">voyage fellow tourist</h1>
+                    <p>far far away,behind the word mountains, far from the countries vokalia and consonantia, there
+                        live
+                        the blind texts</p>
+                </div>
+                <div class="box">
+                    <h1 class="title-footer">book now</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">fight</a></li>
+                            <li><a href="#">hotels</a></li>
+                            <li><a href="#">tour</a></li>
+                            <li><a href="#">car rent</a></li>
+                            <li><a href="#">beach & resorts</a></li>
+                            <li><a href="#">mountains</a></li>
+                            <li><a href="#">cruises</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="box">
+                    <h1 class="title-footer">book now</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">fight</a></li>
+                            <li><a href="#">hotels</a></li>
+                            <li><a href="#">tour</a></li>
+                            <li><a href="#">car rent</a></li>
+                            <li><a href="#">beach & resorts</a></li>
+                            <li><a href="#">mountains</a></li>
+                            <li><a href="#">cruises</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="box">
+                    <h1 class="title-footer">book now</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">fight</a></li>
+                            <li><a href="#">hotels</a></li>
+                            <li><a href="#">tour</a></li>
+                            <li><a href="#">car rent</a></li>
+                            <li><a href="#">beach & resorts</a></li>
+                            <li><a href="#">mountains</a></li>
+                            <li><a href="#">cruises</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="box">
+                    <nav>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i>
+                            </li>
+                            <li><i class="fab fa-instagram"></i>
+                            </li>
+                            <li><i class="fab fa-twitter"></i>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="text-content">
+                <p class="text-center">copyright &copy; all rights reseved | this template is made wiith &hearts; by
+                    colorlib</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/js/resposive.js"></script>
+</body>
+
+</html>

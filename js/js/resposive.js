@@ -13,12 +13,20 @@ window.onscroll = function () {
 
 var header = document.getElementById('menu-header');
 var sticky = header.offsetTop;
-
+var search_tour = document.getElementById('search-tour');
+var sticky_tour = search_tour.offsetTop;
 function myScrolltop() {
     if (window.pageYOffset > sticky + 500) {
         header.classList.add('sticky');
     } else {
         header.classList.remove('sticky');
+    }
+    if (window.pageYOffset > sticky_tour + 500) {
+        search_tour.classList.add('sticky_tour');
+        document.getElementById('search-tour').style.display = "block";
+    } else {
+        search_tour.classList.remove('sticky_tour');
+        document.getElementById('search-tour').style.display = "none";
     }
 }
 // slide show
@@ -41,18 +49,3 @@ function ShowSlide(n) {
     }
     x[slideIndex - 1].style.display = 'block';
 }
-
-function openTab(evt, tabform) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName('tab-content');
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = 'none';
-    }
-    tablinks = document.getElementsByClassName('btn-tab-link');
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(' active', '');
-    }
-    document.getElementById(tabform).style.display = 'block';
-    evt.currentTarget.className += ' active';
-}
-document.getElementById("defaultOpen").click();

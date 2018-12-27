@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- style reset -->
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="../css/animation.css">
+    <!-- icon style -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <script src="../js/jquery/jquery-3.3.1.min.js"></script>
+    <!-- translate -->
+    <script src="../js/jquery/translate.js"></script>
+
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <!--script type="text/javascript" src="engine0/jquery.js"></script-->
+    <!-- End WOWSlider.com HEAD section -->
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <!--script type="text/javascript" src="engine0/jquery.js"></script-->
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body>
+    <header id="menu-header" class="menu">
+        <a href="javascript:void(0);" class="icon" onclick="myHeader()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <h1>voyage</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="lang" key="home">home</a></li>
+                <li><a href="#" class="lang" key="tours">tours</a></li>
+                <li><a href="#" class="lang" key="hotels">hotels</a></li>
+                <li><a href="#" class="lang" key="services">services</a></li>
+                <li><a href="#" class="lang" key="blog">blog</a></li>
+                <li><a href="#" class="lang" key="about">about</a></li>
+                <li><a href="#" class="lang" key="contact">contact</a></li>
+                <li> <img class="translate" id="en" src="http://icons.iconarchive.com/icons/icons-land/vista-flags/32/United-States-Flag-1-icon.png"></li>
+                <li> <img class="translate" id="vn" src="../images/vietnam-flag-3d-icon-32.png"></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div id="tours" class="padding-top-bottom">
+        <div class="boxes_tour">
+            <div class="timeline">
+                <div class="timeline-group">
+                    <span class="timeline-year">2008</span>
+                    <div class="timeline-box">
+                        <div class="timeline-date">
+                            <span class="timeline-day">2</span>
+                            <span class="timeline-month">Feb</span>
+                        </div>
+                        <div class="timeline-post">
+                            <div class="timeline-content">
+                                <img src="../images/image_1.jpg" alt="Images" width="360px">
+                                <h1>Ba Na Hill</h1>
+                                <p>ttends the Philadelphia Museum School of Industrial Art. Studies design with
+                                    Alexey Brodovitch, art director at Harper's Bazaar, and works as his assista</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-group">
+                    <span class="timeline-year">2008</span>
+                    <div class="timeline-box">
+                        <div class="timeline-date">
+                            <span class="timeline-day">2</span>
+                            <span class="timeline-month">Feb</span>
+                        </div>
+                        <div class="timeline-post">
+                            <div class="timeline-content">
+                                <img src="../images/image_1.jpg" alt="Images" width="360px">
+                                <h1>Ba Na Hill</h1>
+                                <p>ttends the Philadelphia Museum School of Industrial Art. Studies design with
+                                    Alexey Brodovitch, art director at Harper's Bazaar, and works as his assista</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-group">
+                    <span class="timeline-year">2008</span>
+                    <div class="timeline-box">
+                        <div class="timeline-date">
+                            <span class="timeline-day">2</span>
+                            <span class="timeline-month">Feb</span>
+                        </div>
+                        <div class="timeline-post">
+                            <div class="timeline-content">
+                                <img src="../images/image_1.jpg" alt="Images" width="360px">
+                                <h1>Ba Na Hill</h1>
+                                <p>ttends the Philadelphia Museum School of Industrial Art. Studies design with
+                                    Alexey Brodovitch, art director at Harper's Bazaar, and works as his assista</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="find-form">
+            <form action="">
+                <input type="text" placeholder="search location" class="form-control">
+            </form>
+            <div class="categories">
+                <h1>categories</h1>
+                <ul>
+                    <li>
+                        <h3>tours</h3>
+                        <p>(12)</p>
+                    </li>
+                    <li>
+                        <h3>hotel</h3>
+                        <p>(22)</p>
+                    </li>
+                    <li>
+                        <h3>cruises</h3>
+                        <p>(12)</p>
+                    </li>
+                    <li>
+                        <h3>restaurant</h3>
+                        <p>(12)</p>
+                    </li>
+                    <li>
+                        <h3>destination</h3>
+                        <p>(12)</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-cloud">
+                <h1>tag clound</h1>
+                <div class="tabs">
+                    <a href="" class="btn border-info">life</a>
+                    <a href="" class="btn border-info">sport</a>
+                    <a href="" class="btn border-info">tech</a>
+                    <a href="" class="btn border-info">travel</a>
+                    <a href="" class="btn border-info">life</a>
+                    <a href="" class="btn border-info">sport</a>
+                    <a href="" class="btn border-info">tech</a>
+                    <a href="" class="btn border-info">travel</a>
+                </div>
+            </div>
+            <div class="paragraph">
+                <h1>paragraph</h1>
+                <p>By 1974, Slade had become a big success in the UK, Europe and beyond, however the band felt that
+                    continuing
+                    to provide 'more of the same' was not what they wanted to do. Their manager Chas Chandler suggested
+                    they
+                    do a movie, to which the band agreed. To accompany the film, Holder and Lea began writing material
+                    for
+                    a soundtrack album, which would continue to see the band break out of their successful formula and
+                    try
+                    different musical ideas. "Far Far Away" was selected as the album's lead single and was released in
+                    October
+                    1974, reaching No. 2 in the UK. To accompany the film, Holder and Lea began writing material for a
+                    soundtrack
+                    album, which would continue to see the band break out of their successful formula and try different
+                    musical
+                    ideas. "Far Far Away" was selected as the album's lead single and was released in October 1974,
+                    reaching
+                    No. 2 in the UK
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-header">
+                <div class="box">
+                    <h1 class="title-footer">voyage fellow tourist</h1>
+                    <p>far far away,behind the word mountains, far from the countries vokalia and consonantia, there
+                        live
+                        the blind texts</p>
+                </div>
+                <div class="box">
+                    <h1 class="title-footer">book now</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">fight</a></li>
+                            <li><a href="#">hotels</a></li>
+                            <li><a href="#">tour</a></li>
+                            <li><a href="#">car rent</a></li>
+                            <li><a href="#">beach & resorts</a></li>
+                            <li><a href="#">mountains</a></li>
+                            <li><a href="#">cruises</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="box">
+                    <h1 class="title-footer">book now</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">fight</a></li>
+                            <li><a href="#">hotels</a></li>
+                            <li><a href="#">tour</a></li>
+                            <li><a href="#">car rent</a></li>
+                            <li><a href="#">beach & resorts</a></li>
+                            <li><a href="#">mountains</a></li>
+                            <li><a href="#">cruises</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="box">
+                    <h1 class="title-footer">book now</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">fight</a></li>
+                            <li><a href="#">hotels</a></li>
+                            <li><a href="#">tour</a></li>
+                            <li><a href="#">car rent</a></li>
+                            <li><a href="#">beach & resorts</a></li>
+                            <li><a href="#">mountains</a></li>
+                            <li><a href="#">cruises</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="box">
+                    <nav>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i>
+                            </li>
+                            <li><i class="fab fa-instagram"></i>
+                            </li>
+                            <li><i class="fab fa-twitter"></i>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="text-content">
+                <p class="text-center">copyright &copy; all rights reseved | this template is made wiith &hearts; by
+                    colorlib</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/js/resposive.js"></script>
+</body>
+
+</html>
